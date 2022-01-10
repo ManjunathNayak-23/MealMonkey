@@ -1,0 +1,24 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=34:E8:E0:89:52:68:77:88:FA:12:35:C1:90:72:B7:AF:EB:47:4E:B6%3Bcom.developer.mealmonkey.fragment
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    com.developer.mealmonkey.fragment
+
+    SHA-1 certificate fingerprint:
+    34:E8:E0:89:52:68:77:88:FA:12:35:C1:90:72:B7:AF:EB:47:4E:B6
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCDzohSAiwi3GekWLMn-UtechkGyd7Tc88</string>
+</resources>

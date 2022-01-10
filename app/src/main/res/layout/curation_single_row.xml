@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="12dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginEnd="12dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_curation"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        android:elevation="1dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/txt_curation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/metropolis_bold"
+        android:gravity="center"
+        android:text="South Indian"
+        android:textColor="@color/textHeading"
+
+        app:layout_constraintEnd_toEndOf="@+id/img_curation"
+        app:layout_constraintStart_toStartOf="@+id/img_curation"
+        app:layout_constraintTop_toBottomOf="@+id/img_curation" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

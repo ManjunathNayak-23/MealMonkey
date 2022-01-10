@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/seondary_nav_res_menu"
+    app:startDestination="@id/viewAllFragment">
+
+    <fragment
+        android:id="@+id/viewAllFragment"
+        android:name="com.developer.mealmonkey.fragment.ViewAllFragment"
+        android:label="fragment_view_all"
+        tools:layout="@layout/fragment_view_all" >
+        <action
+            android:id="@+id/action_viewAllFragment_to_foodListMenuFragment"
+            app:destination="@id/foodListMenuFragment"
+  />
+
+    </fragment>
+    <fragment
+        android:id="@+id/foodListMenuFragment"
+        android:name="com.developer.mealmonkey.fragment.FoodListMenuFragment"
+        android:label="fragment_food_list_menu"
+        tools:layout="@layout/fragment_food_list_menu" >
+        <argument
+            android:name="rName"
+            app:argType="string"
+            android:defaultValue="default" />
+        <argument
+            android:name="rId"
+            app:argType="integer"
+            android:defaultValue="1" />
+        <argument
+            android:name="rArea"
+            app:argType="string"
+            android:defaultValue="default" />
+        <action
+            android:id="@+id/action_foodListMenuFragment_to_cartFragment"
+            app:destination="@id/cartFragment"
+
+
+ />
+        <action
+            android:id="@+id/action_foodListMenuFragment_to_viewAllFragment"
+            app:destination="@id/viewAllFragment"
+      />
+        <argument
+            android:name="fromMainActivity"
+            app:argType="boolean" />
+    </fragment>
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.developer.mealmonkey.fragment.CartFragment"
+        android:label="fragment_cart"
+        tools:layout="@layout/fragment_cart" >
+        <argument
+            android:name="rName"
+            app:argType="string"
+            android:defaultValue="default" />
+        <argument
+            android:name="rId"
+            app:argType="integer"
+            android:defaultValue="1" />
+        <argument
+            android:name="rArea"
+            app:argType="string"
+            android:defaultValue="default" />
+        <action
+            android:id="@+id/action_cartFragment_to_foodListMenuFragment2"
+            app:destination="@id/foodListMenuFragment"
+
+
+ />
+        <argument
+            android:name="fromMainActivity"
+            app:argType="boolean" />
+        <action
+            android:id="@+id/action_cartFragment_to_orderSuccessfulFragment"
+            app:destination="@id/orderSuccessfulFragment"
+            app:popUpTo="@id/viewAllFragment"
+            app:popUpToInclusive="true"
+
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/orderSuccessfulFragment"
+        android:name="com.developer.mealmonkey.fragment.OrderSuccessfulFragment"
+        android:label="fragment_order_successful"
+        tools:layout="@layout/fragment_order_successful" >
+
+
+        <action
+            android:id="@+id/action_orderSuccessfulFragment_to_trackOrderFragment"
+            app:destination="@id/trackOrderFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/trackOrderFragment"
+        android:name="com.developer.mealmonkey.fragment.TrackOrderFragment"
+        android:label="fragment_track_order"
+        tools:layout="@layout/fragment_track_order" />
+</navigation>

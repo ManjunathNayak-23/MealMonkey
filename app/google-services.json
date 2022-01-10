@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "419081470208",
+    "project_id": "fluttershare-1f3f5",
+    "storage_bucket": "fluttershare-1f3f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:419081470208:android:9b7abcd7ff0dad3bffb3e5",
+        "android_client_info": {
+          "package_name": "com.developer.greentaxi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "419081470208-bfolejctsstc42o548606tbtbr2q7hof.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.developer.greentaxi",
+            "certificate_hash": "15390d41ed54bf87ae9852f0743dcfbb0f285c9c"
+          }
+        },
+        {
+          "client_id": "419081470208-1vbegle285pfbgcatkoeei23v5c3kov8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsZ7S5yljArngKPzYaoh-4js-UBw9Tato"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "419081470208-1vbegle285pfbgcatkoeei23v5c3kov8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "419081470208-lq2o1c6jmr3q2jualclbpg61suftj3er.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.kiranaApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:419081470208:android:e5558c6338487dfbffb3e5",
+        "android_client_info": {
+          "package_name": "com.developer.mealmonkey"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "419081470208-1vbegle285pfbgcatkoeei23v5c3kov8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsZ7S5yljArngKPzYaoh-4js-UBw9Tato"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "419081470208-1vbegle285pfbgcatkoeei23v5c3kov8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "419081470208-lq2o1c6jmr3q2jualclbpg61suftj3er.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.kiranaApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
